@@ -28,7 +28,7 @@ const main_loop = () => {
                    
                 mqtt_client.publish('joints', JSON.stringify(data));
 
-                //console.log(start_time_stamp, joints, delta, 'ms');
+                ///console.log(start_time_stamp, joints, delta, 'ms');
                 main_loop();
             });
     }, 10);
